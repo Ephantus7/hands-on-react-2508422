@@ -6,7 +6,7 @@ export default ({ cast, onChoice }) => {
       <ul>
         <li>
           <details role="list">
-            <summary aria-haspopup="listbox" role="link">cast</summary>
+            <summary aria-haspopup="listbox" role="link">Movie Cast</summary>
             <ul role="listbox">
               {cast.map(member => (
                 <li key={member.id}>
